@@ -1,0 +1,33 @@
+body {
+    background-image: url('../Imagen/adnverde.png');
+    background-size: cover;
+}
+.table {
+    border: 0; 
+    margin: 0 auto;
+}
+
+.tde {
+    text-align: center;
+}
+.BVolver1{
+    background: darkslategrey !important;
+    border: none !important;
+    color: white !important;
+    margin-bottom: 16px !important;
+    border-radius: 25px !important;
+    cursor: pointer !important;
+    padding: 15px 50px !important;
+    margin-left: 1550px !important;
+}
+
+.BLogin{
+    width: 100%;
+    height: 40px;
+    background: darkslategrey;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+}

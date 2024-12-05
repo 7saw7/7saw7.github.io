@@ -1,0 +1,77 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('../Imagen/modprod.png');
+    background-size: cover;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos del formulario de búsqueda */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 8px;
+}
+
+button.BLogin {
+    padding: 10px;
+    background-color: #d8a312;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button.BLogin:hover {
+    background-color: #da9a12;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para las filas (excepto la última) */
+
+th {
+    background-color: #f1be30;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Estilos específicos para ID y Nombre en la tabla */
+td:nth-child(1),
+td:nth-child(2) {
+    color: #fff; /* Color del texto */
+    background-color: #eb910a; /* Fondo del color */
+}
+
+/* Estilos del botón "Regresar" */
+button[value="Regresar"] {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+button[value="Regresar"]:hover {
+    background-color: #c0392b;
+}

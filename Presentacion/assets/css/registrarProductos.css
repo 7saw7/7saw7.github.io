@@ -1,0 +1,67 @@
+body {
+    background-image: url('../Imagen/regprod.png');
+    background-size: contain;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-spacing: 0; /* Esto elimina el espacio entre las celdas */
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Agrega un borde para separar visualmente las celdas */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.BLogin {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.BLogin:hover {
+    background-color: #45a049;
+}
+
+button {
+    padding: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.descripcion {
+    width: 100%; /* Ancho ajustado al contenedor */
+    max-width: 500px; /* Ancho máximo */
+    height: 60px; /* Altura personalizada */
+}
+
+.precio {
+    width: 120px; /* Ancho ajustado al contenedor */
+    height: 30px; /* Altura personalizada */
+}
